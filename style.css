@@ -1,0 +1,165 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+main{
+    padding: 40px 30px;
+}
+
+.top-text{
+    text-align: center;
+}
+
+.top-text h1{
+    color: hsl(234, 12%, 34%);
+    font-size: 22px;
+    font-weight: 200;
+    margin: 0;
+}
+
+.top-text h2{
+    font-size: 22px;
+    margin: 0;
+    color: hsl(234, 12%, 34%);
+}
+
+.top-text p{
+    font-size: 15px;
+    margin: 20px 0;
+    color:  hsl(229, 6%, 66%);
+}
+
+.cards .card span{
+    display: flex;
+    flex-direction: column;
+}
+
+.cards{
+    margin: 70px 0;
+    display: grid;
+    gap: 30px;
+}
+
+.cards .card{
+    border-radius: 6px;
+    box-shadow: 1px 5px 12px hsl(229, 6%, 66%);
+    padding: 30px;
+
+}
+
+.cards .supervisor{
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.cards .team-builder{
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.cards .karma{
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.cards .calculator{
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.cards .card h3{
+    font-size: 18px;
+    color: hsl(234, 12%, 34%);
+    margin: 0;
+    font-weight: 600;
+}
+
+.cards .card p{
+    font-size: 13px;
+    color: hsl(229, 6%, 66%);
+    margin: 0;
+    margin-top: 8px;
+}
+
+.cards .card .image {
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+@media (min-width: 576px) {
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+
+@media (min-width: 1000px) {
+    main{
+        padding: 30px 100px;
+    }
+    .cards{
+        grid-template-columns: repeat(3, 1fr);
+        /* grid-template-rows: repeat(4, 1fr); */
+        align-content: center;
+        justify-content: center;
+        /* grid-template-areas:
+            "supervisor team-builder calculator"
+            "supervisor team-builder calculator"
+            "supervisor karma calculator"; */
+    }
+
+    .cards .card{
+        /* padding: 30px 40px; */
+    }
+
+    .cards .supervisor{
+        grid-row: 1 / span 2;
+        height: fit-content;
+        margin-top: 120px;
+    }
+
+    .cards .team-builder{
+        grid-row: 1 / span 1;
+    }
+    
+    .cards .calculator{
+        grid-row: 1 / span 2;
+        height: fit-content;
+        margin-top: 120px;
+    }
+
+    /* .supervisor {
+        grid-area: supervisor;
+    }
+      
+    .team-builder {
+    grid-area: team-builder;
+    }
+    
+    .calculator {
+    grid-area: calculator;
+    }
+    
+    .karma {
+    grid-area: karma;
+    } */
+    
+}

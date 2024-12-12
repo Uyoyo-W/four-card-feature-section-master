@@ -1,4 +1,4 @@
-# DAY 5
+# DAY 6
 
 # Frontend Mentor - Product preview card component solution
 
@@ -12,6 +12,7 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [What I learnt](#what-I-learnt)
  
 - [Author](#author)
 
@@ -37,8 +38,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: https://github.com/Uyoyo-W/product-preview-card
-- Live Site URL: https://product-preview-task.netlify.app/
+- Solution URL: https://github.com/Uyoyo-W/four-card-feature-section-master
+- Live Site URL: https://four-card-feature-task-solution.netlify.app/
 
 ## My process
 
@@ -49,6 +50,10 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+
+### What I learnt
+
+- I fell off the 30-day challenge but I'm picking up from where I stopped because I'm learning that consistency is about sticking to making progress and achieving the set goal regardless of how many times or how long I've been inconsistent for. So this is my submission for Day 6 of the 30 Days of Consistency challenge
 
 
 ## Author
